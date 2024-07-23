@@ -33,10 +33,6 @@ app.get("*",(req,res)=>{
 })
 
 
-// app.get("/",(req,res)=>{
-//     res.send("Hello World");
-// });
-
 server.listen(PORT,()=>{
     connectToMongoDB();
     console.log(`server Running on port ${PORT}`)
